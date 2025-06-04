@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Leen Dalloul - Portfolio</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="author" content="author">
+	<meta name="keywords" content="keywords">
+	<meta name="description" content="description">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/vendor.css">
+	<link rel="stylesheet" type="text/css" href="fonts/icomoon.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="icon" type="image/png" href="LOGO for web.png">
+</head>
+
+<body>
+
+	<div class="nav nav-overlay">
+		<div id="menu-btn-close" class="menu-btn menu-btn-close"><span></span></div>
+		<div class="nav__content">
+			<ul class="nav__list">
+				<li class="nav__list-item active-nav"><a href="index.html" class="hover-target">Home</a></li>
+				<li class="nav__list-item"><a href="#about" class="hover-target">About <span class="badge bg-primary text-white fs-6">
+				<li class="nav__list-item"><a href="#projects" class="hover-target">Projects <span class="badge bg-primary text-white fs-6">
+				<li class="nav__list-item"><a href="#certificates" class="hover-target">Certifications <span class="badge bg-primary text-white fs-6">
+				</ul>
+		</div>
+	</div>
+
+	<header id="header" class="fixed-top">
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="navbar navbar-expand-lg py-4">
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img src="LOGO.png" alt="logo" class="logo-img">
+
+						</a>
+					</div>
+
+					<div class="navbar-collapse collapse justify-content-end me-5" id="slide-navbar-collapse">
+						<ul id="slide-down" class="navbar-nav gap-4">
+							<li><a href="#billboard" class="nav-link active">Home</a></li>
+							<li><a href="#about" class="nav-link">About me</a></li>
+							<li><a href="#projects" class="nav-link">Projects</a></li>
+							<li><a href="#certificates" class="nav-link">Certifications</a></li>
+						</ul>
+					</div>
+					<div id="menu-btn" class="menu-btn d-lg-none"><span></span></div>
+
+
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div id="billboard">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+				</div>
+				<div class="col-md-6">
+					<figure class="bannerimg position-relative">
+						<div class="text-content" data-aos="fade-in">
+							<h1 class="display-1">Leen Dalloul</h1>
+							<h4 class="py-3">The sections below highlight my experience in Computer Science. I have included relevant courses, achievements and awards I have received.</h4>
+							<a href="#about" class="btn btn-dark px-5 py-3">Find Out More</a>
+						</div>
+						<img src="mainnn.jpg" class="img-fluid custom-banner-img" alt="Leen Dalloul">
+					</figure>
+				</div>
+			</div>
+		</div>
+	</div><!--billboard-->
+
+	<section id="about" class="personal-info my-2 py-2 my-md-5 py-md-5">
+		<div class="row justify-content-center">
+			<div class="col-md-8 text-center">
+			  <div class="text-content m-2 p-2 m-md-5 p-md-5">
+				<div class="section-header">
+				  <h2 class="section-title">About Me</h2>
+				</div>
+		  
+				<div class="description">
+				  <p>I'm Leen Dalloul, a Computer Science student at Effat University with a growing interest in Artificial Intelligence, particularly its applications in healthcare. I’ve explored various programming languages such as C++, Java, Python, HTML, CSS, JavaScript, and PHP, and have worked with tools like Bootstrap, GitHub, and XAMPP.</p>
+				  <p>My past projects include GoExplore, a travel website with user authentication and admin tools; a hospital system using C++ data structures; and a Java-based banking system. These experiences have helped me build a solid foundation in full-stack development while expanding my curiosity toward how AI can improve patient care, diagnosis, and health data analysis.</p>
+				</div>
+		  
+				<div class="btn-left">
+				  <a href="#projects" class="btn btn-dark px-5 py-3">View My Projects</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+	</section>
+
+
+	<section class="portfolio" id="projects">
+		<div class="container">
+		  
+		  <!-- Section Title -->
+		  <div class="section-header text-center my-5">
+			<h2 class="section-title">Projects</h2>
+		  </div>
+	  
+		  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+			<!-- Card 1 -->
+			<div class="col">
+			  <div class="card h-100 shadow-sm">
+				<div class="card-body">
+				  <h5 class="card-title">GoExplore</h5>
+				  <p class="card-text">A travel website with user authentication, reviews, and admin dashboard built using PHP, MySQL, and Bootstrap.</p>
+				  <a href="https://goexplore.blog/" class="btn btn-outline-dark">View Project</a>
+				</div>
+			  </div>
+			</div>
+		  
+			<!-- Card 2 -->
+			<div class="col">
+			  <div class="card h-100 shadow-sm">
+				<div class="card-body">
+				  <h5 class="card-title">Hospital System</h5>
+				  <p class="card-text">A C++ project that manages patients using stacks, queues, and priority queues.</p>
+				  <a href="https://github.com/raghad-sh23/dsa_project" class="btn btn-outline-dark">View Project</a>
+				</div>
+			  </div>
+			</div>
+		  
+			<!-- Card 3 -->
+			<div class="col">
+			  <div class="card h-100 shadow-sm">
+				<div class="card-body">
+				  <h5 class="card-title">Banking System</h5>
+				  <p class="card-text">A Java-based console banking system using OOP with login and transaction features.</p>
+				  <a href="https://github.com/leendalloul/banking-system.git" class="btn btn-outline-dark">View Project</a>
+				</div>
+			  </div>
+			</div>
+		  
+			<!-- Card 4 (now inside the same row) -->
+			<div class="col mx-auto">
+			  <div class="card h-100 shadow-sm">
+				<div class="card-body">
+				  <h5 class="card-title">University Network</h5>
+				  <p class="card-text">Designed a university network in Cisco Packet Tracer with segmented departments and centralized services.</p>
+				  <a href="Screenshot 2025-06-04 at 12.29.07 AM.png" class="btn btn-outline-dark">View Project</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+		</div>
+	  </section>
+	  
+	  
+	  
+
+	  <section id="certificates" class="latest-blogs my-2 py-2 my-md-5 py-md-5">
+		<div class="container">
+		  <div class="section-header my-5 text-center">
+			<h2 class="section-title">Certificates</h2>
+		  </div>
+	  
+		  <div class="row mb-5 pb-5">
+	  
+			<!-- Certificate 1 -->
+			<div class="col-md-6">
+			  <div class="post-content mb-5">
+				<div class="meta-tags text-uppercase text-gray d-flex gap-3 fs-6 mb-3 align-items-center">
+				  <span class="meta-date">Jan 2025</span>
+				  <span>ᐧ</span>
+				  <span class="meta-category"><a href="#">Google</a></span>
+				</div>
+				<h3 class="post-title mb-3">
+				  <a href="https://www.credly.com/badges/05d9ebc3-6672-4e77-8e6d-ed04fa98b4a7/public_url">Prompt Design in Vertex AI Skill Badge</a>
+				</h3>
+				<p>Credential in multimodal prompt engineering and generative AI design techniques.</p>
+			  </div>
+			</div>
+	  
+
+			<!-- Dean's List Award -->
+			<div class="col-md-6">
+				<div class="post-content mb-5">
+				  <div class="meta-tags text-uppercase text-gray d-flex gap-3 fs-6 mb-3 align-items-center">
+					<span class="meta-date">Oct 4, 2024</span>
+					<span>ᐧ</span>
+					<span class="meta-category"><a href="#">Effat University</a></span>
+				  </div>
+				  <h3 class="post-title mb-3">
+					<a href="#">Dean’s List Award</a>
+				  </h3>
+				  <p>Recognized for outstanding academic performance and GPA achievement.</p>
+				</div>
+			  </div>
+	  
+			<!-- Certificate 3 -->
+			<div class="col-md-6">
+			  <div class="post-content mb-5">
+				<div class="meta-tags text-uppercase text-gray d-flex gap-3 fs-6 mb-3 align-items-center">
+				  <span class="meta-date">Nov 2023</span>
+				  <span>ᐧ</span>
+				  <span class="meta-category"><a href="#">University of Michigan</a></span>
+				</div>
+				<h3 class="post-title mb-3">
+				  <a href="https://coursera.org/share/a01a8f01ad8fa42d1841f45823325b81">Python Data Structures</a>
+				</h3>
+				<p>Learned how to use lists, dictionaries, and tuples to build scalable Python programs.</p>
+			  </div>
+			</div>
+	  
+	  
+			<!-- Certificate 5 -->
+			<div class="col-md-6">
+			  <div class="post-content mb-5">
+				<div class="meta-tags text-uppercase text-gray d-flex gap-3 fs-6 mb-3 align-items-center">
+				  <span class="meta-date">Oct 2023</span>
+				  <span>ᐧ</span>
+				  <span class="meta-category"><a href="#">University of Michigan</a></span>
+				</div>
+				<h3 class="post-title mb-3">
+				  <a href="https://coursera.org/share/9f3e8a058aa40d3337aff0296e0c02fa">Programming for Everybody (Getting Started with Python)</a>
+				</h3>
+				<p>Introduced the basics of Python programming, syntax, and logic building.</p>
+			  </div>
+			</div>
+	  
+			
+	  
+		  </div>
+		</div>
+	  </section>
+	  
+	  
+	  <div class="footer-bottom py-5 mt-5 border-top">
+		<footer id="footer" class="mt-5 pt-5">
+			<div class="container">
+			  <div class="row">
+		  
+				<!-- Contact Info -->
+				<div class="footer-menu col-md-4">
+				  <h3 class="widget-title">Get In Touch</h3>
+				  <ul class="list-unstyled">
+					<li><a href="mailto:leendalloul5@gmail.com">leendalloul5@gmail.com</a></li>
+					<li>+966 54 278 1575</li>
+				  </ul>
+				</div>
+		  
+				<!-- Social Links -->
+				<div class="footer-menu social-links col-md-4 mb-4 text-center">
+					<h3 class="widget-title">My Social Links</h3>
+					<div class="d-flex justify-content-center gap-4 mt-3">
+					<a href="https://www.linkedin.com/in/leen-dalloul-1514872a3" target="_blank" aria-label="LinkedIn">
+						<i class="fab fa-linkedin fa-2x"></i>
+					</a>
+					<a href="https://github.com/leendalloul" target="_blank" aria-label="GitHub">
+						<i class="fab fa-github fa-2x"></i>
+					</a>
+					</div>
+					<div class="mt-4">
+					<a href="Leen-Dalloul-CV.pdf" class="btn btn-outline-dark rounded-pill px-4 py-2" target="_blank">View My Resume</a>
+					</div>
+				</div>
+		  
+			  </div>
+			</div>
+		  </footer>
+		  
+		<div class="container">
+		  <div class="copyright">
+			<p>© 2025 Leen Dalloul. All rights reserved.</p>
+		  </div>
+		</div>
+	  </div>
+	  
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+		crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
